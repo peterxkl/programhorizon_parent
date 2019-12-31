@@ -2,8 +2,15 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/programHorizon-search" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/programHorizon_base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/programHorizon_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/programHorizon_qa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/programHorizon_recruit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/programhorizon_article" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/programhorizon_comment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/programhorizon_gathering" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/programhorizon_spit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/programhorizon_user" charset="UTF-8" />
   </component>
 </project>

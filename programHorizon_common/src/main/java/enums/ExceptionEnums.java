@@ -14,7 +14,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public enum ExceptionEnums {
-    LABEL_NOT_FOUND(StatusCode.NOT_FOUND,"没有找到相应标签");
+    LABEL_NOT_FOUND(StatusCode.NOT_FOUND,"没有找到相应标签"),
+    ARTICLE_NOT_FOUND(StatusCode.NOT_FOUND, "没有找到相应文章"),
+    INSUFFICIENT_PERMISSION(StatusCode.ACCESSERROR, "权限不够"),
+    GATHERING_NOT_FOUND(StatusCode.NOT_FOUND, "没有找到相应活动");
     private int code;
     private String msg;
 }

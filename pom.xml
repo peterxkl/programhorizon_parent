@@ -10,6 +10,13 @@
         <module>programHorizon_common</module>
         <module>programHorizon_base</module>
         <module>programHorizon_recruit</module>
+        <module>programHorizon_qa</module>
+        <module>programhorizon_article</module>
+        <module>programhorizon_gathering</module>
+        <module>programhorizon_spit</module>
+        <module>programhorizon_comment</module>
+        <module>programHorizon-search</module>
+        <module>programhorizon_user</module>
     </modules>
 
     <groupId>com.programhorizon</groupId>
