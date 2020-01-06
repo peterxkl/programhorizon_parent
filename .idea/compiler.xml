@@ -15,6 +15,7 @@
         <module name="programhorizon_comment" />
         <module name="programhorizon_eureka" />
         <module name="programhorizon_gathering" />
+        <module name="programhorizon_manager" />
         <module name="programHorizonsearch" />
         <module name="programHorizon_common" />
         <module name="programhorizon_user" />
@@ -32,6 +33,7 @@
       <module name="programhorizon_comment" options="-parameters" />
       <module name="programhorizon_eureka" options="-parameters" />
       <module name="programhorizon_gathering" options="-parameters" />
+      <module name="programhorizon_manager" options="-parameters" />
       <module name="programhorizon_spit" options="-parameters" />
       <module name="programhorizon_user" options="-parameters" />
       <module name="programhorizonfriend" options="-parameters" />

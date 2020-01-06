@@ -19,6 +19,7 @@
         <module>programhorizon_user</module>
         <module>programhorizon_eureka</module>
         <module>programhorizon-friend</module>
+        <module>programhorizon_manager</module>
     </modules>
 
     <groupId>com.programhorizon</groupId>
