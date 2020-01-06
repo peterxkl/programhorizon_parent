@@ -1,5 +1,6 @@
 package com.dillon.controller;
 
+import com.dillon.client.LabelClient;
 import com.dillon.pojo.Problem;
 import com.dillon.service.ProblemService;
 import com.sun.org.apache.regexp.internal.RE;
@@ -8,9 +9,7 @@ import entity.Result;
 import entity.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collections;
 import java.util.List;
@@ -26,6 +25,8 @@ public class ProblemController {
 
     @Autowired
     private ProblemService problemService;
+    @Autowired
+    private LabelClient labelClient;
 
     /*
     根据标签id查询最新问题列表
@@ -55,5 +56,23 @@ public class ProblemController {
         Page<Problem> waitListByLabelId = problemService.findWaitListByLabelId(labelId, page, size);
         PageResult<Problem> result = new PageResult<>(waitListByLabelId.getTotalElements(), waitListByLabelId.getContent());
         return Result.builder().flag(true).code(StatusCode.OK).message("查询成功").data(result).build();
+    }
+
+    /*
+    发布问题
+     */
+    @PostMapping
+    public Result addProblem(@RequestBody Problem problem) {
+        problemService.addProblem(problem);
+        return Result.builder().flag(true).code(StatusCode.OK).message("添加成功").data(null).build();
+    }
+
+    /*
+    根据id查询标签，调用base微服务接口
+     */
+    @GetMapping("label/{labelid}")
+    public Result findLabelById(@PathVariable String labelid){
+        Result result = labelClient.findById(labelid);
+        return result;
     }
 }

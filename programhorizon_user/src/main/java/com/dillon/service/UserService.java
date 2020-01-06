@@ -101,4 +101,18 @@ public class UserService {
         }
         userRepository.deleteById(id);
     }
+
+    /*
+    变更粉丝数(可能+1、也可能-1)
+     */
+    public void updateFanscount(String userId, int number) {
+        userRepository.updateFanscount(userId, number);
+    }
+
+    /*
+    更新关注数
+     */
+    public void updateFollowcount(String userId, int number) {
+        userRepository.updateFollowcount(userId, number);
+    }
 }

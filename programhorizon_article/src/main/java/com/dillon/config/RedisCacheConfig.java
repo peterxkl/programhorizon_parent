@@ -22,7 +22,7 @@ import java.util.Map;
 @Configuration
 public class RedisCacheConfig {
     @Autowired
-    RedisConnectionFactory connectionFactory;
+    RedisConnectionFactory connectionFactory;  //RedisConnectionFactory是JedisConnectionFactory的父类
     @Bean
     RedisCacheManager redisCacheManager() {
         Map<String, RedisCacheConfiguration> configurationMap = new HashMap<>();

@@ -1,8 +1,16 @@
 server:
-  port: 9007
+  port: 9009
 spring:
   application:
     name: programHorizon-comment
   data:
     mongodb:
       uri: mongodb://localhost:27017/commentdb
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true

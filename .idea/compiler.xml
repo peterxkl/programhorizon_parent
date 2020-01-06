@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="programhorizon_spit" />
         <module name="programHorizon_recruit" />
+        <module name="programhorizonfriend" />
+        <module name="programHorizon_qa" />
         <module name="programHorizon_base" />
         <module name="programhorizon_article" />
         <module name="programhorizon_comment" />
-        <module name="programHorizonsearch" />
+        <module name="programhorizon_eureka" />
         <module name="programhorizon_gathering" />
-        <module name="programhorizon_user" />
+        <module name="programHorizonsearch" />
         <module name="programHorizon_common" />
-        <module name="programHorizon_qa" />
+        <module name="programhorizon_user" />
       </profile>
     </annotationProcessing>
   </component>
@@ -28,9 +30,11 @@
       <module name="programHorizonsearch" options="-parameters" />
       <module name="programhorizon_article" options="-parameters" />
       <module name="programhorizon_comment" options="-parameters" />
+      <module name="programhorizon_eureka" options="-parameters" />
       <module name="programhorizon_gathering" options="-parameters" />
       <module name="programhorizon_spit" options="-parameters" />
       <module name="programhorizon_user" options="-parameters" />
+      <module name="programhorizonfriend" options="-parameters" />
     </option>
   </component>
 </project>

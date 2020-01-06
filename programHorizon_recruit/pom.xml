@@ -32,6 +32,17 @@
             <artifactId>hibernate-java8</artifactId>
             <version>5.0.12.Final</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <version>2.0.1.RELEASE</version>
+        </dependency>
     </dependencies>
 
 </project>

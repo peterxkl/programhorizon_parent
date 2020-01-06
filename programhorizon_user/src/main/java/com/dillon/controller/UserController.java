@@ -50,4 +50,14 @@ public class UserController {
         return Result.builder().flag(true).code(StatusCode.OK).message("删除成功").data(null).build();
     }
 
+    @PutMapping("/insfans/{id}/{number}")
+    public void updateFanscount(@PathVariable String id, @PathVariable int number) {
+        userService.updateFanscount(id, number);
+    }
+
+    @PutMapping("/insfollow/{id}/{number}")
+    public void updateFollowcount(@PathVariable String id, @PathVariable int number) {
+        userService.updateFollowcount(id, number);
+    }
+
 }

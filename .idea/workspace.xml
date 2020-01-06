@@ -2,86 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d8959f-acd6-4f71-97c8-41d6708559af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/XIEDI.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon-search/programHorizonsearch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon-search/src/main/java/com/dillon/SearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon-search/src/main/java/com/dillon/controller/ArticleSearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon-search/src/main/java/com/dillon/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon-search/src/main/java/com/dillon/repository/ArticleSearchRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon-search/src/main/java/com/dillon/service/ArticleSearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon-search/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_common/src/main/java/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_qa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/QaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/controller/ProblemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/pojo/Pl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/pojo/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/pojo/Reply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/repository/ProblemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/service/ProblemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_article/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/ArticleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/config/RedisCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/repository/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_article/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_comment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/java/com/dillon/CommentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/java/com/dillon/config/SaveMongoEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/java/com/dillon/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/java/com/dillon/pojo/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/java/com/dillon/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/java/com/dillon/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/GatheringApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/config/RedisCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/controller/GatheringController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/pojo/Gathering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/repository/GatheringRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/service/GatheringService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_spit/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/SpitApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/config/RedisCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/controller/SpitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/pojo/Spit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/repository/SpitRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/service/SpitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/config/RedisCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/interceptor/JwtInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/pojo/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/repository/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/client/LabelClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/repository/ReplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/FriendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/controller/FriendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/pojo/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/pojo/NoFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/repository/FriendRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/repository/NoFriendRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/java/com/dillon/service/FriendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_eureka/src/main/java/com/dillon/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_eureka/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/XIEDI.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/XIEDI.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programHorizon_base/src/main/java/com/dillon/service/LabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/src/main/java/com/dillon/service/LabelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programHorizon_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programHorizon_common/src/main/java/enums/ExceptionEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_common/src/main/java/enums/ExceptionEnums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon-search/src/main/java/com/dillon/SearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon-search/src/main/java/com/dillon/SearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon-search/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon-search/target/classes/com/dillon/SearchApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon-search/target/classes/com/dillon/SearchApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/src/main/java/com/dillon/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/src/main/java/com/dillon/BaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/target/classes/com/dillon/BaseApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/target/classes/com/dillon/BaseApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/target/classes/com/dillon/controller/BaseExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/target/classes/com/dillon/controller/LabelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/target/classes/com/dillon/controller/LabelController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/target/classes/com/dillon/repository/LabelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/target/classes/com/dillon/repository/LabelRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/target/classes/com/dillon/service/LabelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/target/classes/com/dillon/service/LabelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_common/src/main/java/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_common/src/main/java/util/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programHorizon_common/target/classes/enums/ExceptionEnums.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_common/target/classes/enums/ExceptionEnums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/QaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/QaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/controller/ProblemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/controller/ProblemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/pojo/Reply.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/pojo/Reply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/service/ProblemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/service/ProblemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/QaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/QaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/controller/ProblemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/controller/ProblemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/pojo/Reply$ReplyBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/pojo/Reply$ReplyBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/pojo/Reply.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/pojo/Reply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/service/ProblemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/service/ProblemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/src/main/java/com/dillon/RecruitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/src/main/java/com/dillon/RecruitApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/RecruitApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/RecruitApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_article/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/ArticleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/ArticleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/config/RedisCacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_article/src/main/java/com/dillon/config/RedisCacheConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_article/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_article/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_article/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_article/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_article/target/classes/com/dillon/ArticleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_article/target/classes/com/dillon/ArticleApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_comment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_comment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_comment/src/main/java/com/dillon/CommentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/java/com/dillon/CommentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_comment/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_comment/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_comment/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_comment/target/classes/com/dillon/CommentApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_comment/target/classes/com/dillon/CommentApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_comment/target/classes/com/dillon/config/SaveMongoEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_comment/target/classes/com/dillon/config/SaveMongoEventListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/GatheringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/GatheringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/target/classes/com/dillon/GatheringApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/target/classes/com/dillon/GatheringApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_spit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_spit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/SpitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/SpitApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_spit/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_spit/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_spit/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_spit/target/classes/com/dillon/SpitApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_spit/target/classes/com/dillon/SpitApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_spit/target/classes/com/dillon/controller/SpitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_spit/target/classes/com/dillon/controller/SpitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/UserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/service/UserService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,8 +120,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -144,6 +157,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -152,15 +168,16 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dillon.config" />
+      <recent name="com.dillon.interceptor" />
       <recent name="com.dillon.pojo" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\programhorizon_parent\programhorizon-friend\src\main\resources" />
+      <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_eureka\src\main\resources" />
       <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_user\src\main\java\com\dillon\config" />
       <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_user\src\main\resources" />
       <recent name="D:\IdeaProject\programhorizon_parent\programHorizon-search\src\main\resources" />
-      <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_comment\src\main\resources" />
-      <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_spit\src\main\java\com\dillon\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,20 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
-    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programhorizon_article" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dillon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.ArticleApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.CommentApplication">
     <configuration name="CommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="programhorizon_comment" />
       <extension name="coverage">
@@ -202,15 +206,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programHorizonsearch" />
+    <configuration name="QaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="programHorizon_qa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dillon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.SearchApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.QaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecruitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="programHorizon_recruit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dillon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.RecruitApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.ArticleApplication" />
-        <item itemvalue="Spring Boot.SearchApplication" />
+        <item itemvalue="Spring Boot.QaApplication" />
         <item itemvalue="Spring Boot.CommentApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.SpitApplication" />
+        <item itemvalue="Spring Boot.RecruitApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +287,23 @@
       <workItem from="1577099927513" duration="20453000" />
       <workItem from="1577273672241" duration="7733000" />
       <workItem from="1577581173595" duration="19792000" />
+      <workItem from="1577783445482" duration="194000" />
+      <workItem from="1577959565064" duration="21000" />
+      <workItem from="1577959661301" duration="14000" />
+      <workItem from="1577971316429" duration="1835000" />
+      <workItem from="1578012385913" duration="64000" />
+      <workItem from="1578119244075" duration="20789000" />
+      <workItem from="1578270856761" duration="47000" />
+      <workItem from="1578312314920" duration="322000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1577783625604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577783625604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,16 +324,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/controller/ProblemController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>

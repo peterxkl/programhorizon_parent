@@ -19,7 +19,7 @@ import java.util.Date;
 @Component
 @Data
 public class JwtUtil {
-    private String key;
+    private String key;   //公司规定的“盐”
     private long ttl;
 
     /*
