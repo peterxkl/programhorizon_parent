@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="programhorizon_spit" />
-        <module name="programHorizon_recruit" />
-        <module name="programhorizonfriend" />
-        <module name="programHorizon_qa" />
-        <module name="programHorizon_base" />
-        <module name="programhorizon_article" />
-        <module name="programhorizon_comment" />
-        <module name="programhorizon_eureka" />
-        <module name="programhorizon_gathering" />
-        <module name="programhorizon_manager" />
-        <module name="programHorizonsearch" />
-        <module name="programHorizon_common" />
+        <module name="programhorizonweb" />
         <module name="programhorizon_user" />
+        <module name="programHorizon_qa" />
+        <module name="programhorizon_comment" />
+        <module name="programhorizonfriend" />
+        <module name="programHorizon_recruit" />
+        <module name="programhorizon_eureka" />
+        <module name="programHorizon_common" />
+        <module name="programhorizon_gathering" />
+        <module name="programHorizon_base" />
+        <module name="programhorizon_manager" />
+        <module name="programhorizon_article" />
+        <module name="programHorizonsearch" />
+        <module name="programhorizon_spit" />
+        <module name="programhorizonconfig" />
       </profile>
     </annotationProcessing>
   </component>
@@ -36,7 +38,9 @@
       <module name="programhorizon_manager" options="-parameters" />
       <module name="programhorizon_spit" options="-parameters" />
       <module name="programhorizon_user" options="-parameters" />
+      <module name="programhorizonconfig" options="-parameters" />
       <module name="programhorizonfriend" options="-parameters" />
+      <module name="programhorizonweb" options="-parameters" />
     </option>
   </component>
 </project>

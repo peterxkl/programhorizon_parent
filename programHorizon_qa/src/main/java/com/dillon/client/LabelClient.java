@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @version 1.0
  * @date 1/4/2020 5:03 PM
  */
-@FeignClient("programHorizon-base")
+@FeignClient(value = "programHorizon-base", fallback = LabelClientImpl.class)
 public interface LabelClient {
 
     @GetMapping("label/{id}")

@@ -2,18 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d8959f-acd6-4f71-97c8-41d6708559af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/programhorizon_manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programHorizon-search/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programHorizon_base/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/client/LabelClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programHorizon_recruit/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-config/src/main/java/com/dillon/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-friend/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-web/src/main/java/com/dillon/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-web/src/main/java/com/dillon/filter/WebFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon-web/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_article/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_comment/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_manager/src/main/java/com/dillon/ManagerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_manager/src/main/java/com/dillon/filter/ManagerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_manager/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programhorizon_user/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon-search/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_base/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/programHorizon_qa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/QaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/QaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/client/LabelClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/src/main/java/com/dillon/client/LabelClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon-config/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programHorizon_recruit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/src/main/java/com/dillon/RecruitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/src/main/java/com/dillon/RecruitApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon-friend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon-friend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon-friend/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_article/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_article/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_comment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_comment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_comment/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_manager/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programhorizon_spit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_spit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/SpitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_spit/src/main/java/com/dillon/SpitApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_spit/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/programhorizon_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +74,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,7 +109,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leyou" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -92,11 +127,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProject\programhorizon_parent\programhorizon-friend\src\main\resources" />
-      <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_eureka\src\main\resources" />
-      <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_user\src\main\java\com\dillon\config" />
       <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_user\src\main\resources" />
-      <recent name="D:\IdeaProject\programhorizon_parent\programHorizon-search\src\main\resources" />
+      <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_spit\src\main\resources" />
+      <recent name="D:\IdeaProject\programhorizon_parent\programHorizon_recruit\src\main\resources" />
+      <recent name="D:\IdeaProject\programhorizon_parent\programHorizon_qa\src\main\resources" />
+      <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_manager\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,16 +146,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommentApplication">
-    <configuration name="CommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programhorizon_comment" />
+  <component name="RunManager" selected="Spring Boot.BaseApplication">
+    <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="programHorizon_base" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dillon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.CommentApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.BaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="programhorizonconfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dillon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="programhorizon_eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dillon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="programhorizon_manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dillon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.ManagerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,52 +212,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecruitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programHorizon_recruit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dillon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.RecruitApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programhorizon_spit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dillon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.SpitApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programhorizon_user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dillon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.UserApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BaseApplication" />
+        <item itemvalue="Spring Boot.EurekaServer" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
+        <item itemvalue="Spring Boot.ManagerApplication" />
         <item itemvalue="Spring Boot.QaApplication" />
-        <item itemvalue="Spring Boot.CommentApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.SpitApplication" />
-        <item itemvalue="Spring Boot.RecruitApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +248,10 @@
       <workItem from="1578012385913" duration="64000" />
       <workItem from="1578119244075" duration="20789000" />
       <workItem from="1578270856761" duration="47000" />
-      <workItem from="1578312314920" duration="4820000" />
+      <workItem from="1578312314920" duration="5248000" />
+      <workItem from="1578482275582" duration="11078000" />
+      <workItem from="1578571794917" duration="2717000" />
+      <workItem from="1578704387374" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1577783625604</created>
@@ -229,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578312704897</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix some bug about jar">
+      <created>1578319674723</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578319674723</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +297,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="second commit" />
     <MESSAGE value="three commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="three commit" />
+    <MESSAGE value="fix some bug about jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some bug about jar" />
   </component>
 </project>

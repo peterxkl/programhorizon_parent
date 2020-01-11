@@ -20,6 +20,8 @@
         <module>programhorizon_eureka</module>
         <module>programhorizon-friend</module>
         <module>programhorizon_manager</module>
+        <module>programhorizon-web</module>
+        <module>programhorizon-config</module>
     </modules>
 
     <groupId>com.programhorizon</groupId>
