@@ -1,7 +1,10 @@
 package com.dillon.service;
 
+import com.dillon.pojo.Enterprise;
 import com.dillon.pojo.Recruit;
 import com.dillon.repository.RecruitRepository;
+import enums.ExceptionEnums;
+import exception.PhException;
 import org.springframework.stereotype.Service;
 import util.IdWorker;
 
@@ -36,5 +39,12 @@ public class RecruitService {
 
     public void addManyRecruit(List<Recruit> recruitList) {
         recruitRepository.saveAll(recruitList);
+    }
+
+    /*
+    根据id查询活动
+     */
+    public Recruit findById(String id) {
+        return recruitRepository.findById(id).orElseThrow(() -> new PhException(ExceptionEnums.RECRUIT_NOT_FOUND));
     }
 }

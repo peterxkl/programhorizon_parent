@@ -17,7 +17,9 @@ public enum ExceptionEnums {
     LABEL_NOT_FOUND(StatusCode.NOT_FOUND,"没有找到相应标签"),
     ARTICLE_NOT_FOUND(StatusCode.NOT_FOUND, "没有找到相应文章"),
     INSUFFICIENT_PERMISSION(StatusCode.ACCESSERROR, "权限不够"),
-    GATHERING_NOT_FOUND(StatusCode.NOT_FOUND, "没有找到相应活动");
+    GATHERING_NOT_FOUND(StatusCode.NOT_FOUND, "没有找到相应活动"),
+    RECRUIT_NOT_FOUND(StatusCode.NOT_FOUND, "没有找到相应招聘信息"),
+    ENTERPRISE_NOT_FOUND(StatusCode.NOT_FOUND, "没有找到相应企业");
     private int code;
     private String msg;
 }

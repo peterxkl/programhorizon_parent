@@ -2,6 +2,8 @@ package com.dillon.service;
 
 import com.dillon.pojo.Enterprise;
 import com.dillon.repository.EnterpriseRepository;
+import enums.ExceptionEnums;
+import exception.PhException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,5 +22,12 @@ public class EnterpriseService {
 
     public List<Enterprise> getHotList() {
         return enterpriseRepository.findAllByIsHot("1");
+    }
+
+    /*
+    根据id查询活动
+     */
+    public Enterprise findById(String id) {
+        return enterpriseRepository.findById(id).orElseThrow(() -> new PhException(ExceptionEnums.ENTERPRISE_NOT_FOUND));
     }
 }

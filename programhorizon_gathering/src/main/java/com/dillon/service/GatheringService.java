@@ -36,7 +36,6 @@ public class GatheringService {
     /*
     根据id查询活动
      */
-    @Cacheable(value = "c1")
     public Gathering findById(String id) {
         return gatheringRepository.findById(id).orElseThrow(() -> new PhException(ExceptionEnums.GATHERING_NOT_FOUND));
     }

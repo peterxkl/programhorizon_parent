@@ -6,6 +6,7 @@ import entity.Result;
 import entity.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -27,5 +28,14 @@ public class EnterpriseController {
     public Result getHotList() {
         List<Enterprise> list = enterpriseService.getHotList();
         return Result.builder().flag(true).code(StatusCode.OK).message("查询成功").data(list).build();
+    }
+
+    /*
+    根据id查询企业
+     */
+    @GetMapping("/{id}")
+    public Result findById(@PathVariable String id) {
+        Enterprise result = enterpriseService.findById(id);
+        return Result.builder().flag(true).code(StatusCode.OK).message("查询成功").data(result).build();
     }
 }

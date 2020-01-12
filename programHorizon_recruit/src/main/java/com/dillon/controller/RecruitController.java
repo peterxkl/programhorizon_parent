@@ -1,5 +1,6 @@
 package com.dillon.controller;
 
+import com.dillon.pojo.Enterprise;
 import com.dillon.pojo.Recruit;
 import com.dillon.service.RecruitService;
 import entity.Result;
@@ -38,9 +39,13 @@ public class RecruitController {
         recruitService.addRecruit(recruit);
         return Result.builder().flag(true).code(StatusCode.OK).message("新增成功").data(null).build();
     }
-//    @PostMapping
-//    public Result addManyRecruit(@RequestBody List<Recruit> recruitList) {
-//        recruitService.addManyRecruit(recruitList);
-//        return Result.builder().flag(true).code(StatusCode.OK).message("新增成功").data(null).build();
-//    }
+
+    /*
+    根据id查询企业
+     */
+    @GetMapping("/{id}")
+    public Result findById(@PathVariable String id) {
+        Recruit result = recruitService.findById(id);
+        return Result.builder().flag(true).code(StatusCode.OK).message("查询成功").data(result).build();
+    }
 }
