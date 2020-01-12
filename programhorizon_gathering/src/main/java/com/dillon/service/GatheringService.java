@@ -8,7 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @author DillonXie
@@ -20,8 +24,17 @@ public class GatheringService {
     @Autowired
     private GatheringRepository gatheringRepository;
 
+
     /*
-    根据id查询文章
+    查询所有活动
+     */
+    public List<Gathering> getAll() {
+        return gatheringRepository.findAll();
+    }
+
+
+    /*
+    根据id查询活动
      */
     @Cacheable(value = "c1")
     public Gathering findById(String id) {
@@ -29,7 +42,7 @@ public class GatheringService {
     }
 
     /*
-    更新文章信息
+    更新活动信息
      */
     @CachePut(value = "c1")
     public Gathering updateGathering(Gathering article) {
@@ -37,10 +50,19 @@ public class GatheringService {
     }
 
     /*
-    删除文章
+    删除活动
      */
     @CacheEvict(value = "c1")
     public void deleteById(String id) {
         gatheringRepository.deleteById(id);
+    }
+
+    /*
+    根据条件分页查询
+     */
+    public Page<Gathering> search(int page, int size, Gathering gathering) {
+        PageRequest pageRequest = PageRequest.of(page-1, size);
+        Page<Gathering> allGatheringByState = gatheringRepository.findByState(gathering.getState(), pageRequest);
+        return allGatheringByState;
     }
 }
