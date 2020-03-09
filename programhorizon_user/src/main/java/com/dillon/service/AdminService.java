@@ -31,6 +31,7 @@ public class AdminService {
         admin.setId(idWorker.nextId() + "");
         String newPassword = bCryptPasswordEncoder.encode(admin.getPassword());
         admin.setPassword(newPassword);
+        admin.setState("1");
         adminRepository.save(admin);
     }
 

@@ -38,27 +38,29 @@ public class ManagerFilter extends ZuulFilter {
 
     @Override
     public Object run() throws ZuulException {
-        RequestContext requestContext = RequestContext.getCurrentContext();
-        HttpServletRequest request = requestContext.getRequest();
-        if (request.getMethod().equals("OPTIONS")) {     //?????
-            return null;
-        }
-        String url = request.getRequestURL().toString();
-        if (url.indexOf("/admin/login") > 0) {
-            return null;  //表示是登录请求
-        }
-        String authorization = request.getHeader("Authorization");
-        if (authorization != null && authorization.startsWith("Bearer ")) {
-            String token = authorization.substring(7);
-            Claims claims = jwtUtil.parseJWT(token);
-            if ("admin".equals(claims.get("roles"))) {
-                requestContext.addZuulRequestHeader("Authorization", authorization);
-                return null;
-            }
-        }
-        requestContext.setSendZuulResponse(false);  //终止运行
-        requestContext.setResponseStatusCode(401);
-        requestContext.setResponseBody("无权访问");
+//        RequestContext requestContext = RequestContext.getCurrentContext();
+//        HttpServletRequest request = requestContext.getRequest();
+//        if (request.getMethod().equals("OPTIONS")) {     //?????
+//            return null;
+//        }
+//        String url = request.getRequestURL().toString();
+//        if (url.indexOf("/admin/login") > 0) {
+//            return null;  //表示是登录请求,管理员登录不拦截来进行token判断
+//        }
+//        String authorization = request.getHeader("Authorization");
+//        if (authorization != null && authorization.startsWith("Bearer ")) {
+//            String token = authorization.substring(7);
+//            Claims claims = jwtUtil.parseJWT(token);
+//            if ("admin".equals(claims.get("roles"))) {
+//                requestContext.addZuulRequestHeader("Authorization", authorization);
+//                return null;
+//            }
+//        }
+//        requestContext.setSendZuulResponse(false);  //终止运行
+//        requestContext.setResponseStatusCode(401);
+//        requestContext.setResponseBody("无权访问");
+//        return null;
+        System.out.println("过滤器执行了");
         return null;
     }
 }

@@ -4,11 +4,10 @@ import com.dillon.pojo.Admin;
 import com.dillon.service.AdminService;
 import entity.Result;
 import entity.StatusCode;
+import io.jsonwebtoken.Claims;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import util.JwtUtil;
 
 import java.util.HashMap;
@@ -21,6 +20,8 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("admin")
+@Slf4j
+@CrossOrigin
 public class AdminController {
 
     @Autowired
@@ -32,17 +33,42 @@ public class AdminController {
     /*
     登录
      */
-    @PostMapping
+    @PostMapping("login")
     public Result login(@RequestBody Map<String, String> loginMap) {
-        Admin admin = adminService.findByLoginnameAndPassword(loginMap.get("loginname"), loginMap.get("password"));
+        log.info("name is {}, password is {}", loginMap.get("username"), loginMap.get("password"));
+        Admin admin = adminService.findByLoginnameAndPassword(loginMap.get("username"), loginMap.get("password"));
         if (admin == null) {
             return Result.builder().flag(false).code(StatusCode.LOGINERROR).message("密码错误").data(null).build();
         } else {
             String token = jwtUtil.createJWT(admin.getId(), admin.getLoginname(), "admin");  //生成token
             Map<String, String> map = new HashMap<>();
             map.put("token", token);
-            map.put("loginname", admin.getLoginname());
+            map.put("name", admin.getLoginname());
+            map.put("roles", "admin");
             return Result.builder().flag(true).code(StatusCode.OK).message("登录成功").data(map).build();
         }
+    }
+
+    /*
+    添加管理员用户
+     */
+    @PostMapping("add")
+    public Result add(@RequestBody Admin admin) {
+        log.info("admin is {}", admin);
+        adminService.add(admin);
+        return Result.builder().flag(true).code(StatusCode.OK).message("添加成功").data(null).build();
+    }
+
+
+    /*
+    根据token获取用户基本信息
+     */
+    @GetMapping("info")
+    public Result getInfo(@RequestParam String token) {
+        Claims claims = jwtUtil.parseJWT(token);
+        Map<String, String> map = new HashMap<>();
+        map.put("name", claims.getSubject());
+        map.put("roles", (String) claims.get("roles"));
+        return Result.builder().flag(true).code(StatusCode.OK).message("成功").data(map).build();
     }
 }

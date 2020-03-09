@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="programhorizonweb" />
         <module name="programhorizon_user" />
+        <module name="programhorizon-config" />
         <module name="programHorizon_qa" />
         <module name="programhorizon_comment" />
+        <module name="programhorizon-web" />
         <module name="programhorizonfriend" />
         <module name="programHorizon_recruit" />
         <module name="programhorizon_eureka" />
@@ -17,7 +19,9 @@
         <module name="programhorizon_gathering" />
         <module name="programHorizon_base" />
         <module name="programhorizon_manager" />
+        <module name="programHorizon-search" />
         <module name="programhorizon_article" />
+        <module name="programhorizon-friend" />
         <module name="programHorizonsearch" />
         <module name="programhorizon_spit" />
         <module name="programhorizonconfig" />
@@ -26,11 +30,15 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="programHorizon-search" options="-parameters" />
       <module name="programHorizon_base" options="-parameters" />
       <module name="programHorizon_common" options="-parameters" />
       <module name="programHorizon_qa" options="-parameters" />
       <module name="programHorizon_recruit" options="-parameters" />
       <module name="programHorizonsearch" options="-parameters" />
+      <module name="programhorizon-config" options="-parameters" />
+      <module name="programhorizon-friend" options="-parameters" />
+      <module name="programhorizon-web" options="-parameters" />
       <module name="programhorizon_article" options="-parameters" />
       <module name="programhorizon_comment" options="-parameters" />
       <module name="programhorizon_eureka" options="-parameters" />

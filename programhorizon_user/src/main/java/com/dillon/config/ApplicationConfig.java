@@ -24,6 +24,7 @@ public class ApplicationConfig extends WebMvcConfigurationSupport {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(jwtInterceptor)
                 .addPathPatterns("/**")
-                .excludePathPatterns("/login/**");
+                .excludePathPatterns("/admin/login/**")
+                .excludePathPatterns("/user/login/**");
     }
 }

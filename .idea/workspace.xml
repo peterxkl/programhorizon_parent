@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d8959f-acd6-4f71-97c8-41d6708559af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/controller/GatheringController.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/controller/GatheringController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/repository/GatheringRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/repository/GatheringRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/service/GatheringService.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/src/main/java/com/dillon/service/GatheringService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programhorizon_gathering/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_common/programHorizon_common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_common/target/classes/enums/ExceptionEnums.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_common/target/classes/enums/ExceptionEnums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/QaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_qa/target/classes/com/dillon/QaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/controller/EnterpriseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/controller/EnterpriseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/controller/RecruitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/controller/RecruitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/service/EnterpriseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/service/EnterpriseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/service/RecruitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/programHorizon_recruit/target/classes/com/dillon/service/RecruitService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programhorizon_gathering/target/classes/com/dillon/controller/GatheringController.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/target/classes/com/dillon/controller/GatheringController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programhorizon_gathering/target/classes/com/dillon/repository/GatheringRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/target/classes/com/dillon/repository/GatheringRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programhorizon_gathering/target/classes/com/dillon/service/GatheringService.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_gathering/target/classes/com/dillon/service/GatheringService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_manager/src/main/java/com/dillon/filter/ManagerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_manager/src/main/java/com/dillon/filter/ManagerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_spit/target/classes/com/dillon/SpitApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_spit/target/classes/com/dillon/SpitApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/src/main/java/com/dillon/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/programhorizon_user/target/classes/com/dillon/service/UserService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +61,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Program Files\mavenRepository" />
+        <option name="localRepository" value="D:\Program Files\MavenRepository" />
         <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -70,12 +85,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leyou" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -95,6 +110,19 @@
       <recent name="D:\IdeaProject\programhorizon_parent\programhorizon_manager\src\main\resources" />
     </key>
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9008/admin/add" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -108,44 +136,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.GatheringApplication">
-    <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programHorizon_base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dillon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.BaseApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programhorizonconfig" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dillon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.ConfigApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programhorizon_eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dillon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.EurekaServer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="UserApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/UserApplication.http">
+      <method v="2" />
     </configuration>
     <configuration name="GatheringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="programhorizon_gathering" />
@@ -160,8 +152,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="programhorizon_manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dillon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="programhorizon_user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dillon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dillon.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="programhorizonweb" />
+      <module name="programhorizon-web" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dillon.*" />
@@ -176,10 +194,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GatheringApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.ManagerApplication" />
+        <item itemvalue="HTTP Request.UserApplication#1" />
         <item itemvalue="Spring Boot.WebApplication" />
-        <item itemvalue="Spring Boot.EurekaServer" />
-        <item itemvalue="Spring Boot.ConfigApplication" />
-        <item itemvalue="Spring Boot.BaseApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +232,23 @@
       <workItem from="1578571794917" duration="2717000" />
       <workItem from="1578704387374" duration="4220000" />
       <workItem from="1578723656116" duration="10300000" />
+      <workItem from="1579237594068" duration="559000" />
+      <workItem from="1579417301652" duration="3666000" />
+      <workItem from="1579490717484" duration="171000" />
+      <workItem from="1579490949262" duration="13000" />
+      <workItem from="1579527039855" duration="84000" />
+      <workItem from="1580916876460" duration="1340000" />
+      <workItem from="1580978003254" duration="1216000" />
+      <workItem from="1581043175763" duration="2184000" />
+      <workItem from="1581505786370" duration="2335000" />
+      <workItem from="1582011763286" duration="570000" />
+      <workItem from="1582025665845" duration="7727000" />
+      <workItem from="1582116592380" duration="3201000" />
+      <workItem from="1582207557594" duration="1028000" />
+      <workItem from="1582460428663" duration="1812000" />
+      <workItem from="1582633755320" duration="8251000" />
+      <workItem from="1582812400148" duration="4220000" />
+      <workItem from="1583021666199" duration="26348000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1577783625604</created>
