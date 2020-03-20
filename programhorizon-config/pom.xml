@@ -31,7 +31,7 @@
     </dependencies>
 
     <properties>
-        <docker.image.prefix>47.115.94.160:5000</docker.image.prefix>
+        <docker.image.prefix>192.168.21.128:5000</docker.image.prefix>
     </properties>
 
     <build>
