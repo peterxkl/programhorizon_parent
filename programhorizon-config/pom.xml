@@ -43,13 +43,20 @@
             </plugin>
             <plugin>
                 <groupId>com.spotify</groupId>
-                <artifactId>dockerfile-maven-plugin</artifactId>
-                <version>1.3.6</version>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.2.2</version>
                 <configuration>
-                    <repository>${docker.image.prefix}/${project.artifactId}</repository>
-                    <buildArgs>
-                        <JAR_FILE>target/${project.build.finalName}</JAR_FILE>
-                    </buildArgs>
+                    <imageName>${docker.image.prefix}/${project.artifactId}:${project.version}</imageName>
+                    <baseImage>jdk1.8</baseImage>
+                    <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                    <dockerHost>http://192.168.107.128:2375</dockerHost>
                 </configuration>
             </plugin>
         </plugins>
