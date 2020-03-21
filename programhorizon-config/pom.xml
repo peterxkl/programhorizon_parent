@@ -47,6 +47,7 @@
                 <version>1.2.2</version>
                 <configuration>
                     <imageName>${docker.image.prefix}/${project.artifactId}:${project.version}</imageName>
+                    <baseImage>openjdk:8-jdk-alpine</baseImage>
                     <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
                     <resources>
                         <resource>
