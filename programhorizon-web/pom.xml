@@ -44,4 +44,36 @@
         </dependency>
     </dependencies>
 
+    <properties>
+        <docker.image.prefix>192.168.107.128:5000</docker.image.prefix>
+    </properties>
+
+    <build>
+        <finalName>app</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.2.2</version>
+                <configuration>
+                    <imageName>${docker.image.prefix}/${project.artifactId}:${project.version}</imageName>
+                    <baseImage>openjdk:8-jdk-alpine</baseImage>
+                    <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                    <dockerHost>http://192.168.107.128:2375</dockerHost>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
